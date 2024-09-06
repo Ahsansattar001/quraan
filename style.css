@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/font\ \(1\).ttf) format('ttf');
+    src: url(/fonts/font\ \(2\).ttf) format('ttf');
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+p{
+    font-family:"Gilroy",sans-serif !important ;
+    color: #212529 !important;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.navbar{
+    background-color: #ffffff !important;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  
+}
+.navbar-brand img{
+    object-fit: contain;
+    
+}
+.nav-item{
+    margin-left: 20px !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif !important;
+}
+.nav-item .nav-link{
+    color: #004f25 !important;
+    transition: 0.5s; 
+    position: relative;
+}
+.nav-item .nav-link:hover{
+    color: #E1AC52!important;
+}
+.navbar form .btn{
+    padding: 15px 30px;
+    border-radius: 90px;
+    background-color: #1AB69d;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    font-family: "Amaranth", sans-serif !important;
+}
+.navbar form .btn:hover{
+    background-color: #E1AC52;
+    color: white;
+    
+
+}
+/* hersection */
+.hero-section{
+    background-color: #f4f4f4f4;
+    height: 90vh;
+}
+.hero-h h1{
+    font-size: 44px;
+    font-weight: 700;
+    padding: 10px 0px;
+    font-family: "Poppins",sans-serif !important;
+}
+.hero-p p{
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    line-height: 25px;
+    color: #181818;
+
+}
+.hero-section .btn{
+    background-color:#1AB69d;
+    color: white;
+    padding: 10px 30px;
+}
+.hero-section .btn:hover{
+    background-color:#E1AC52 ;
+    color: white;
+}
+.hero-section .card-1{
+   
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,  #1ab69d,#1db789, #1fb693);
+  
+    text-align: center;
+    border-radius: 0px;
+    padding: 30px ;
+    
+    border: none;
+
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #FFFFFF26;
+    
+    
+}.hero-section .card-2{
+   
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,  #20b693,#23b78f, #26b88b);
+    border: none;
+    
+    text-align: center;
+    border-radius: 0px;
+  
+    padding: 30px;
+    
+
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #FFFFFF26;
+    
+    
+}
+.hero-section .card-3{
+   
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,  #25b78a,#28b886, #2bb881);
+   border: none;
+    text-align: center;
+    border-radius: 0px;
+    
+   
+    padding: 30px;
+   
+
+
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #FFFFFF26;    
+    
+}
+.hero-section .card-4{
+   
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,  #2bb882,#2eb97c, #31b978);
+    border: none;
+    text-align: center;
+    border-radius: 0px;
+   
+    padding: 30px;
+    
+    
+    /* border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #FFFFFF26; */
+    
+}
+
+.card-img .i svg{
+    font-size: 32px;
+}
+.card-img .h{
+    margin-left: 25px;
+    text-align: left;
+}
+.card-img .h h2{
+  font-size: 21px;
+  color: white;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+.card-img .h h3{
+  font-size: 21px;
+  color: white;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+/* about section */
+.about{
+    margin-top: 165px;
+    background-color: #fff;
+}
+
+.about-head h2{
+   font-size: 40px;
+   font-weight: 700;
+   font-family: "Spartan",sans-serif;
+}
+.about-img img{
+    border-radius: 10px;
+}
+.about-h h4{
+    color: #181818;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.about-h h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Spartan", sans-serif;
+    margin: 20px 0px;
+}
+.about-h h3 span{
+    color: #ee4a62;
+}
+.about-p p{
+    font-size: 16px;
+    
+    line-height: 30px;
+    color: #181818;
+}
+@media (max-width:768px) {
+    .about-img img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about{
+        margin-top:136% !important;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .about{
+        margin-top:175% !important;
+    }
+}
+
+/* serveces */
+
+.services h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Spartan",sans-serif;
+    margin: 70px 0px;
+    color: #181818;
+}
+.services .card{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f5f2;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+   width: 95%;
+   min-height: 100%;
+}
+
+.services .card-img img{
+    object-fit: contain;
+    border-radius: 4px;
+    width: 100%;
+   
+    transition: 0.7s ease;
+}
+.services .card-img img:hover{
+    transform: scale(1.1);
+   
+}
+.services .card .card-body{
+    padding: 30px 30px 20px;
+    text-align: left;
+}
+
+.services .card .card-body h3{
+    font-size: 18px ;
+    font-weight: 600 ;
+    text-align: left;
+    color: #181818;
+    font-family: "Spartan", sans-serif ;
+    
+} 
+.services .card .card-body p{
+    text-align: left;
+    font-size: 16px;
+    color:#181818;
+    line-height: 30px;
+} 
+.services .content h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 70px 0px;
+   
+}
+.services .img img{
+    transition:  2s ease;
+}
+.card-body .btn{
+    padding: 5px 8px;
+    background-color: #1AB69d;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+.card-body .btn:hover{
+    background-color: #004f25;
+    color: white;
+    border: none;
+}
+@media (max-width:425px) {
+    .box3{
+        display: block;
+    }
+    .c-content{
+        margin-bottom: 10px;
+    }
+}
+
+/* tstinomials */
+.TESTIMONIALs{
+    background-color: rgba(255, 255, 255, 0.39);
+    
+}
+.TESTIMONIALs .tt-h{
+    margin-top: 80px;
+}
+.TESTIMONIALs span{
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 10px;
+    color: #212529;
+}
+.TESTIMONIALs h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+    color:#212529;
+    /* padding: 50px 0px; */
+}
+.TESTIMONIALs .btn{
+   font-size: 16px;
+   padding: 10px 20px;
+   background-color: #1AB69d;
+   color: white;
+   transition: 0.5s ease;
+   margin-bottom: 10px;
+}
+.TESTIMONIALs .btn:hover{
+    background-color: #ca923b;
+    color: white;
+}
+.box3{
+    min-height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 20px;
+
+   }
+   
+   .c-content{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100% !important;
+    padding: 60px 30px 50px ;
+    border-radius: 18px;
+    box-shadow: 0px 10px 50px 0px rgba(26, 46, 85, 0.1);
+    position: relative;
+   }
+   .c{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+   }
+   .card-img img::before{
+    content: "\e919";
+   }
+   .f svg{
+  background-color: #28b886;
+  padding: 2px;
+  border-radius: 50%;
+  position: absolute;
+  top: 112px;
+  left: 92px;
+  width: 35px;
+  height: 35px;
+  border: 3px solid white;
+   }
+   .c-content h3{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Spartan",sans-serif ;
+   }
+   .c-content p{
+    height: 100% !important;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 20px;
+    color: #808080;
+    
+   }
+   .c-content span{
+    color: #808080;
+    font-size: 15px;
+   }
+.t-icon i{
+  color: gold;
+  margin-bottom: 6px;
+}
+/* footer */
+.footer{
+    background-color:#f0f4f5;
+    color: black;
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+.footer .logo{
+    margin-bottom: 20px;
+}
+.social-icon a{
+    font-size: 25px;
+}
+.social-icon a:nth-child(1){
+    color: rgb(7, 247, 127);
+}
+.social-icon a:nth-child(2){
+    color: black;
+}
+.footer h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppines",sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px !important;
+    color: black;
+
+}
+.footer p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    color: black;
+}
+.unlisted a{
+    text-decoration: none;
+    color:black;
+    line-height: 2;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.unlisted a:hover{
+    padding-left: 5px;
+    color: #004f25;
+}
+.unstyled-list ul{
+    padding-left: 0px;
+    color:black;
+}
+.unstyled-list ul li{
+    list-style: none;
+    line-height: 2;
+}
+.unstyled-list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.unstyled-list ul li a:hover{
+    padding-left:5px;
+    color: #004f25;
+}
+.right{
+    background-color: #bbc6c9;
+}
+.copyright{
+    margin-bottom: 0px;
+    padding: 15px 0px;
+}
+.copyright p{
+    font-size: 16px;
+    margin-bottom: 0px;
+    
+}
+/* about-page */
+.about-page{
+    margin-top: 40px;
+}
+
+/* contact page */
+.contact{
+    margin-top: 50px;
+}
+.contact-h h1{
+   font-size: 40px;
+   font-weight: 700;
+   font-family: "Poppins",sans-serif;
+}
+.contact-body h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+}
+.contact-body .address h2{
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+}
+
+.contact-body .address p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+}
+.contact .card{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 50px 0px rgba(25.999999999999996, 46, 84.99999999999999, 0.1);
+    padding:50px 25px;
+}
+.contact .card h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Spartan",sans-serif;
+}
+.contact .card p{
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 30px;
+}
+.contact .card input{
+    width: 100%;
+    padding: 30px 0px 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.contact .card textarea{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.contact .card a button{
+    padding: 10px 40px;
+    background-color: #1ab69d;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+/* .services-page */
+.service-page .services-page-h h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+}
+.services-page-img img{
+    border-radius: 5px;
+}
+.service-page .service-body h3{
+    font-size: 30px;
+    padding: 8px;
+    font-weight: 700;
+
+}
+.service-page .service-body p{
+    font-size: 16px;
+    font-family: "Gilroy",sans-serif;
+    line-height: 25px;
+    padding: 0px 8px;
+}
